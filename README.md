@@ -1,2 +1,30 @@
-# AI-Document-Assistant-LangChain-RAG-
-An AI-powered document question-answering system that uses Retrieval-Augmented Generation (RAG) to provide accurate, context-aware responses from PDF documents. Built with LangChain, FAISS vector search, and LLMs to reduce hallucinations and enable semantic document understanding.
+# AI Document Assistant using LangChain (RAG)
+
+An AI-powered document question-answering system built using
+LangChain and Retrieval-Augmented Generation (RAG).
+
+## 🚀 Features
+- PDF document ingestion
+- Semantic text chunking
+- Vector embeddings using HuggingFace
+- FAISS-based similarity search
+- Accurate, context-aware AI responses
+- Streamlit UI
+
+## 🧠 Architecture
+PDF → Chunking → Embeddings → Vector DB → Retriever → LLM → Answer
+
+## 🛠 Tech Stack
+- Python
+- LangChain
+- FAISS
+- HuggingFace Embeddings
+- OpenAI
+- Streamlit
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/ai-document-assistant.git
+cd ai-document-assistant
+pip install -r requirements.txt
